@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Teko:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.card{
+    margin: 10px;
+    width: 350px;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 10px;
+    vertical-align: top;
+    transition: 0.5s linear;
+}
+.m-20{
+    margin: 20px;
+}
+body{
+    height: 3000px;
+}
+
+.image{
+    display: block;
+    width: 100%;
+
+}
+.card:hover .fa-home{
+    color: red;
+    transform: scale(1.1);
+}
+.fa-home{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.card-title{
+    font-family: 'Teko',sans-serif;
+    margin-bottom: 10px;
+}
+
+.card-text{
+    font-family: monospace;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.card-btn{
+    background-color: black;
+    border: 1px solid black;
+    height: 50px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+    padding: 0 20px;
+    font-family: 'Roboto';
+    border-radius: 8px;
+}
+.card-btn-link{
+    font-family: 'Roboto';
+    background: transparent;
+    border: none;
+    height: 50px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    line-height: 50px;
+    padding: 0 20px;
+    border-radius: 8px;
+}
+.btn-outter{
+    margin: auto;
+    margin-bottom: -43px;
+    display: block;
+    width: 130px;
+    text-align: center;
+}
+.btn-upper{
+    position: relative;
+    margin-left: 250px;
+    margin-top: -35px;
+}

@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(27, 25, 25);
+}
+.container{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    position: relative;
+    min-height: 100px;
+}
+.home-logo{
+    flex-grow: 1;
+}
+.logo{
+    flex-grow: 1;
+    border: 5px solid rgb(194, 55, 55);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.link-container{
+    /* flex-grow: 1; */
+    width: 700px;
+    height: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 70px;
+    display: flex;
+    align-content: space-around;
+}
+/* .down-arrow{
+    display: inline-block;
+    margin: 100px auto;
+} */
+.arrow{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    align-self: center;
+    flex-shrink: 1;
+    transition: 3s linear;
+    animation-name: pointer;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes pointer {
+    0%{
+        margin-top: 0;
+        opacity: 0.6;
+    }
+    50%{
+        margin-top: -100px;
+        opacity: 1;
+    }
+    100%{
+        margin-top: 0;
+        opacity: 0.6;
+    }
+}
+.link{
+    
+    display: inline-block;
+    font-size: 17px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Open Sans';
+    margin-right: 15px;
+    /* align-content: flex-end; */
+}
+.link:hover{
+    background-color: rgb(231, 74, 74);
+    box-shadow: rgba(155, 23, 107, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(218, 37, 151, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;    
+}
+.icons{
+    margin-right: 10px;
+}
+.container{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/500/198/463/pixel-art-digital-art-pixelated-pixels-wallpaper-preview.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-container{
+    text-align: center;
+    width: 100%;
+    height: 200vh;
+    /* padding-bottom: 400px; */
+    background-color: rgb(226, 111, 111);
+}
+.div-container{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    align-content: space-between;
+}
+.intro-text{
+    display: inline-block;
+    font-family: 'Roboto';
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+.about{
+    display: inline-block;
+    text-align: center;
+    width: 350px;
+    height: 500px;
+    border: 3px solid rgb(72, 72, 190);
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: rgb(36, 30, 30);
+}
+.person-image{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+}
+.title{
+    font-family: 'Open Sans';
+}
+.story{
+    width: 100%;
+    height: 100px;
+    font-family: 'Roboto';
+    color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 15px;
+}
+.title{
+    color: rgb(64, 64, 143);
+}
+.vocaloid{
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    border-radius: 50px;
+    border: 2px solid rgb(77, 77, 158);
+}
+.body{
+    text-align: center;
+    padding: 15px;
+    line-height: 1.3;
+}
+.btn{
+    background-color: rgb(68, 152, 226);
+    border-radius: 7px;
+    margin-top: 30px;
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    height: 150px;
+}
+footer p{
+    text-decoration: none;
+    margin-top: 20px;
+    font-family: 'Poppins';
+}
+.a-border{
+    border: 2px solid  rgb(202, 37, 37);
+}
+.border2{
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    border-radius: 50px;
+    border: 3px solid rgb(202, 37, 37);
+}
+.title-char{
+    color:  rgb(202, 37, 37);
+}
+.border3{
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    border-radius: 50px;
+    border: 2px solid rgb(202, 37, 37);
+}
+.border4{
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    border-radius: 50px;
+    border: 2px solid rgb(202, 37, 37);
+}
+.border5{
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    border-radius: 50px;
+    border: 2px solid rgb(202, 37, 37);
+}
+.fa-location-dot{
+    /* background-color: rgb(36, 24, 24); */
+    width: 50px;
+    height: 50px;
+    font-size: 45px;
+}
+.location{
+    color: red;
+    font-size: 20px;
+}

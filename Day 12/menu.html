@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .nav{
+            border: 1px black solid;
+            list-style-type: none;
+            background: black;
+        }
+        .nav-items{
+            display: inline-block;
+
+        }
+        .nav-link{
+            padding: 15px 20px;
+            display: inline-block;
+            font-weight: bold;
+            font-family: 'Roboto';
+            color: white;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        .nav-link:hover{
+            background-color: rgb(70, 60, 60);
+        }
+        .nav-link.active{
+            background-color: aqua;
+        }
+        .nav-link.activce:hover{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav">
+        <li class="nav-items ">
+            <a href="#" class="nav-link active">Home</a>
+        </li>
+        <li class="nav-items">
+            <a href="#" class="nav-link">Services</a>
+        </li>
+        <li class="nav-items ">
+            <a href="#" class="nav-link">About Us</a>
+        </li>
+        <li class="nav-items">
+            <a href="#" class="nav-link">Contact US</a>
+        </li>
+        <li class="nav-items">
+            <a href="#" class="nav-link">Products</a>
+        </li>
+    </ul>
+</body>
+</html>

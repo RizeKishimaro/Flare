@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    /* background-color: rgb(77, 106, 185); */
+    background-color: rgb(13, 129, 224);
+}
+.company{
+    display: inline-block;
+    flex-grow: 1;
+    font-family: 'Rubik Marker Hatch', cursive;
+    letter-spacing: 2px;
+    margin: 30px 20px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+.single-down{
+    margin-bottom: -2px;
+}
+.box-shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.header{
+    background-color: rgb(13, 197, 221);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.intro-text{
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
+
+.nav{
+    display: flex;
+    padding-top: 50px;
+}
+/* .nav-links::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 50px;
+    background-color: #764abc;
+    transition: all 1s;
+    transform: translateX(-100%); */
+
+.nav-links:hover{
+    box-shadow: inset 0px 0px 10px black;
+}
+.t-color{
+    color: yellow;
+}
+.nav-links{
+    /* background-color: black; */
+    background-color: rgb(110, 157, 218);
+    border-radius: 30px;
+    padding: 20px 30px;
+    margin: 10px 10px;
+    font-weight: lighter;
+    width: 20px;
+    height: auto;
+}
+.link-container{
+    display: inline-block;
+    margin: 20px 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+/* .arrow{
+    width: 100%;
+    height: 500px;
+    animation-name: arrow;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    font-size: 40px;
+    margin-top: 100px;
+    transition: 1s linear;
+    /* display: inline-block; */
+    /* position: absolute; */
+.intro-container{
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+    font-size: 20px;
+}
+.service-header{
+    width: 100%;
+    height: 100vh;
+}
+.services{
+    margin-top: -190px;
+}
+.service-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.service-items{
+    text-align: center;
+    /* margin: 20px 20px; */
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+    /* border: 1px solid white; */
+    display: inline-block;
+    background-color: rgb(13, 129, 224);
+    border-radius: 30px;
+}
+.service-div{
+    background-color: rgb(48, 201, 201);
+    width: 100%;
+    height: 160px;
+}
+.icons{
+    color: rgb(68, 59, 59);
+    margin-top: 30px;
+    font-size: 70px;
+}
+.text-container{
+    margin-top: 40px;
+    padding: 0px 10px;
+}
+.description{
+    margin-top: 30px;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    margin-top: 100px;
+    text-align: center;
+}
+.our-story{
+    contain: content;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-us{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+    flex-direction: row;
+}
+.our-social{
+    width: 30%;
+    height: 150px;
+    padding-top: 30px;
+    
+}
+.location{
+    float: right;
+}
+.o-title{
+    padding-top: 30px;
+}
+.link-icon-social{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+
+}
+.social-head{
+    text-align: center;
+}
+.link-item{
+    margin: 10px 10px;
+    width: 50px;
+    height: 70px;
+    display: block;
+}
+.s-icons{
+    font-size: 40px;
+    margin: 5px 5px;
+}
+.brands{
+    display: inline-block;
+}
+/*  */
+/*css anima.s-text{
+    align-self: flex-end;
+}tions*/
+/* @keyframes arrow {
+    0%{margin-bottom: 0px;}
+    50%{margin-bottom: -200px;}
+    100%{margin-bottom: 0px}
+} */
+@keyframes rocket {
+    0%{}
+    100%{}
+}
