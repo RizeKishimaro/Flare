@@ -1,0 +1,23 @@
+{
+  "name": "flare",
+  "version": "1.0.0",
+  "description": "Hey it's the repository # items are here * * It's Fast! * * It's Clean!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RizeKishimaro/Flare.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RizeKishimaro/Flare/issues"
+  },
+  "homepage": "https://github.com/RizeKishimaro/Flare#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}
